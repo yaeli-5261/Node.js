@@ -44,6 +44,5 @@ Thumbs.db
 *.sln
 
 # קבצי build של TypeScript
-*.js
 *.map
 *.d.ts
