@@ -6,7 +6,7 @@ import axios from 'axios';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 10000;
 
 const RENDER_API_URL = "https://api.render.com/v1/services";
 const API_KEY = 'rnd_eVCMYPzdoOjQDJJGRA99jZpTFIw2';
