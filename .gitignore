@@ -1,0 +1,49 @@
+# תיקיית החבילות של Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# קבצי לוג
+logs/
+*.log
+logs/*.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+lerna-debug.log
+tsconfig.tsbuildinfo
+
+# קבצי הסביבה (סיסמאות, API keys וכו')
+.env
+.env.local
+.env.*.local
+
+# קבצי build ונתונים זמניים
+dist/
+.out/
+.cache/
+tmp/
+*.tsbuildinfo
+.vscode/
+
+# תיקיות Docker
+.dockerignore
+docker-compose.override.yml
+
+# קבצים של מערכת ההפעלה
+.DS_Store
+Thumbs.db
+
+# קבצים של IDE
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# קבצי build של TypeScript
+*.js
+*.map
+*.d.ts
